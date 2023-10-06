@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display&family=Rubik&display=swap');
+
+
+:root{
+    --font-texto:'Rubik', sans-serif;
+    --font-destaque:'Playfair Display', serif;
+    --font-titulo:'Dela Gothic One', cursive;
+
+    --cor1:#ffffff;
+    --cor2:#000000;
+    --cortitulo: #FF8C00;
+    --corsombra:#00000063;
+    --cordestaque:#f5b363e1;
+}
+
+*{
+    font-family: var(--font-texto);
+    
+}
+
+.navbar span{
+    font-family: var(--font-titulo);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: var(--cortitulo);
+}
+
+.navbar a{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: var(--font-destaque);
+    
+}
+
+.navbar a:hover{
+    color: var(--cortitulo);
+}
+
+.bg-image p{
+    width: 50%;
+    padding-top: 10px;
+}
+
+.bg-image h1{
+    font-size: 70px;
+    font-family: var(--font-titulo);
+    color: var(--cor1);
+}
+
+.bg-image span{
+    font-size: 40px;
+    font-family: var(--font-destaque);
+    font-weight: bold;
+    margin-left: 5px;
+}
