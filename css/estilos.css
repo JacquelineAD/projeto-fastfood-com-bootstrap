@@ -15,6 +15,9 @@
 
 *{
     font-family: var(--font-texto);
+    margin: 0;
+    padding: 0;
+    
     
 }
 
@@ -38,14 +41,22 @@
 }
 
 .bg-image p{
-    width: 50%;
+    width: 45%;
     padding-top: 10px;
+    padding-left: 25px;
+}
+
+.bg-image{
+    z-index: 1;
 }
 
 .bg-image h1{
     font-size: 70px;
     font-family: var(--font-titulo);
     color: var(--cor1);
+    padding-left: 25px;
+    padding-top: 20%;
+    
 }
 
 .bg-image span{
@@ -53,4 +64,138 @@
     font-family: var(--font-destaque);
     font-weight: bold;
     margin-left: 6px;
+    padding-left: 25px;
 }
+
+.bg-image button{
+    padding: 10px 25px;
+    margin-left: 25px;
+}
+
+
+
+.our-products h2{
+    font-family: var(--font-titulo);
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.our-products .card-title{
+    font-family: var(--font-titulo);
+    letter-spacing: 2px;
+}
+
+.our-products p{
+    font-size: 20px;
+}
+
+.our-products .card-text{
+    font-family: var(--font-destaque);
+    font-size: 18px;
+   font-weight: 600;
+}
+
+.our-products .card{
+    box-shadow: 15px 15px 40px var(--corsombra);
+}
+
+
+.popular-food h2{
+    font-family: var(--font-titulo);
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.popular-food p{
+    font-size: 20px;
+}
+
+.popular-food card{
+    display: inline-flex;
+    
+}
+
+.popular-food .card{
+    max-width: 20rem;
+    max-height: 20rem;
+    box-shadow: 5px 0px 10px var(--corsombra);
+    
+}
+
+.popular-food .card .card-title{
+    font-family: var(--font-titulo);
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.popular-food .card .card-text{
+    font-size: 18px;
+    text-align: center;
+}
+
+.popular-food .card .price-container{
+    display: flex;
+    align-items: baseline;
+    
+    
+}
+
+.popular-food .card .new-price{
+    font-family: var(--font-titulo);
+    font-size: 18px;
+    margin-left: 60px;
+    padding-right:8px ;
+    
+}
+
+.popular-food .card .old-price{
+    font-weight:bold;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.how-work h2{
+    font-family: var(--font-titulo);
+    font-size: 50px;
+    padding-top: 250px;
+}
+
+.how-work p{
+    font-size: 20px;
+    
+}
+
+.how-work .row.row-cols-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-work .box {
+    flex: 1;
+    text-align: center;
+}
+
+.how-work .box img {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 10px var(--corsombra);
+}
+
+.how-work .box img:hover{
+    background-color: var(--cortitulo);
+    
+}
+
+.how-work .box h3{
+    font-family: var(--font-titulo);
+    padding-top: 25px;
+}
+
+.how-work .box h3:hover{
+    color: var(--cortitulo);
+}
+
+
+
